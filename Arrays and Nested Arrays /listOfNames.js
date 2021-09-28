@@ -9,14 +9,14 @@
 
 //Class solution
 function solve(arr) {
-    const result = arr.sort();
+    let resultArr = arr.sort();
     let orderNumber = 1;
     
-    arr.forEach(element => {
+    resultArr.forEach(element => {
         console.log(`${orderNumber}.${element}`);
         orderNumber++;
     });
 }
 
-solve(["John", "Bob", "Christina", "Ema"])
+solve(["John", "Bob", "120", "Christina", "Ema", "40"])
 
