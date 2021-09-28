@@ -1,5 +1,6 @@
-function operations(initial, op1, op2, op3, op4, op5) {
-    arr = [op1, op2, op3, op4, op5];
+function operations(num, op1, op2, op3, op4, op5) {
+    let initial = Number(num);
+    let arr = [op1, op2, op3, op4, op5];
 
     function chop(n) {
         return n / 2;
