@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+</head>
+<body>
+    <h1 id="title">DOM Intro</h1>
+    <ul>
+        <li class="row">DOM Methods Example</li>
+        <li class="row">DOM Properties Example</li>
+    </ul>
+    <input>
+    <script>
+        function edit(element, match, replacer) {
+            const text = element.textContent;
+            element.textContent = text.replaceAll(match, replacer);
+        }
+    </script>   
+</body>
+</html>
